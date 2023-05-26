@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+
+ 
+}
+  
+ 
+.top {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(blue-milky-way-galaxy-4k-7y-1360x768.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+
+.content { 
+    position:fixed;
+    top: 35%;
+    left: 5%;
+    transform: translate(-50%, -50%, );
+    text-transform: uppercase;
+    font-family:sans-serif;
+    margin: auto;
+
+}
+.content h1{
+     color: #ffffff;
+    font-size: 100px;
+    letter-spacing: 15px;
+    margin-bottom: 15px;
+    margin-left: 15%;
+
+    text-align: center;
+}
+
+.content p{
+
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 50px;
+     margin-left: 10%;
+    text-align: center;
+}
+.content a{
+
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgba(67, 67, 224, 0.92);
+    border-radius: 255px;
+    padding: 10px 40px;
+    margin-left: 50%;
+ }
+.content a:hover{
+    background-color:rgba(0, 0, 0, 0.851);
+}
+
+@keyframes change {
+    0% 
+    {
+        background-image: url(blue-milky-way-galaxy-4k-7y-1360x768.jpg);
+
+    }
+    20% 
+    {
+        background-image: url(newNada.jpg);
+        
+    }
+    40% 
+    {
+        background-image: url(6d735ebe9db1126500d2a2c941491f93.jpg);
+        
+    }
+    60% 
+    {
+        background-image: url(blue-milky-way-galaxy-4k-7y-1360x768.jpg);
+        
+    }
+    80% 
+    {
+        background-image: url(wallpaperflare.com_wallpaper.jpg);
+        
+    }
+    100% 
+    {
+        background-image: url(blue-milky-way-galaxy-4k-7y-1360x768.jpg);
+        
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NASA Image Search</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="nasa3.css">
+	<style>    
+		.headStyle{
+			font-family: cursive;
+ 			color: lightslategray ;
+			text-align: center;
+			font-size: 50px;
+			margin-top: 10px;
+		}	
+		nav ul{
+			text-align: center;
+		}
+	
+		nav li{
+			display:inline-block ;
+	
+		}
+		nav li a{
+			font-size: 17px;
+			padding: 25px 20px ;
+			color: lightslategray;
+			text-decoration: none;
+			letter-spacing: 2px;
+			font-weight: bolder;
+		}
+	
+		nav li:hover a{
+			color:rgba(56, 56, 181, 0.92);
+			font-weight: bolder;
+		} 
+		
+
+	</style>
+</head>
+
+<body>
+
+
+ 		<div class="headStyle">SpaceEye 
+			<hr style="width: 900px;">
+		</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="nasa.html">PhotoGenerator</a></li>
+					<li><a href="About.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+ 
+
+
+	<header class="the-title">
+		<h1>SpaceEye Image Search</h1>
+		<hr class="line" style="width : 500px">
+	</header>
+
+
+	<main>
+		<section class="Search-of-Date">
+			<label for="date-input">Enter a date :</label>
+			<br>
+			<input type="date" id="date-input">
+			<button class="dateButton"id="search-button">Search</button>
+		</section>
+		<section class="picture">
+			<div class="title" id="title-container"></div>
+			<br>
+			<div id="image-container"></div>
+		</section>
+	</main>
+
+	<script src="nasa.js"></script>
+
+	<footer class="footer-distributed">
+		<div class="footer-left">
+			
+			<p style="color: grey;">SpaceEye &copy;2023</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
